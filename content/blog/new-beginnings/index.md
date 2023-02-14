@@ -11,6 +11,8 @@ Duden flows by their place and supplies it with the necessary regelialia.
 
 ## On deer horse aboard tritely yikes and much
 
+$a^2 + b^2 = c^2$
+
 The Big Oxmox advised her not to do so, because there were thousands of bad
 Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
 didn’t listen. She packed her seven versalia, put her initial into the belt and
