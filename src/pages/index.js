@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
+import TopNavigationBar from "../components/TopNavBar/TopNavBar";
 import Seo from "../components/seo"
 
 const BlogIndex = ({ data, location }) => {
@@ -24,6 +25,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
+      <TopNavigationBar />
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
