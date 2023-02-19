@@ -18,9 +18,9 @@ import classNames from "classnames"
 import { Link } from "gatsby"
 import * as React from "react"
 import { Fragment, useContext, useState } from "react"
-import Logo from "../../../../mdx-attempt/src/components/Logo"
-import LogoSquare from "../../../../mdx-attempt/src/components/LogoSquare"
-import SectionsDropdown from "../../../../mdx-attempt/src/components/SectionsDropdown"
+//import Logo from "../../../../mdx-attempt/src/components/Logo"
+//import LogoSquare from "../../../../mdx-attempt/src/components/LogoSquare"
+//import SectionsDropdown from "../../../../mdx-attempt/src/components/SectionsDropdown"
 import "../../global.css"
 
 export default function TopNavigationBar({
@@ -155,15 +155,10 @@ export default function TopNavigationBar({
                 to={linkLogoToIndex ? "/" : "/"}
                 className="flex-shrink-0 flex items-center"
               >
-                <div className="block sm:hidden">
-                  <LogoSquare className="h-10 w-10" />
-                </div>
-                <div className={"hidden sm:block h-9"}>
-                  <Logo />
-                </div>
+                
               </Link>
               <div className={`hidden lg:ml-8 lg:flex space-x-8`}>
-                <SectionsDropdown currentSection={currentSection} />
+                
                 <Link
                   to="/"
                   getProps={({ isCurrent }) => ({
